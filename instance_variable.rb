@@ -8,3 +8,6 @@ class Car
     puts "Car make: #{@make}, Model: #{@model}"
   end
 end
+
+my_car = Car.new("Toyota", "Fortuner")
+my_car.display_info
