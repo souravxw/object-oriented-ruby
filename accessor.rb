@@ -1,3 +1,4 @@
+#manual getter and setter
 class Person
   def initialize(name, age)
     @name = name
@@ -12,3 +13,11 @@ class Person
   end
 
 end
+
+
+person = Person.new("John", 30)
+puts person.name 
+person.name = "Alice"
+puts person.name 
+person.name = "Proloy"
+puts person.name
