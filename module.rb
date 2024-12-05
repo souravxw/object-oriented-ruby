@@ -3,3 +3,12 @@ module Drivable
     puts "Driving..."
   end
 end
+
+class Car
+  include Drivable  
+end
+
+class Truck
+  include Drivable  
+end
+
