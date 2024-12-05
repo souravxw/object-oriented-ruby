@@ -9,3 +9,7 @@ class Car
     "#{@year} #{@brand} #{@model}"
   end
 end
+
+
+car = Car.new("Tesla", "Model 3", 2023)
+puts car.display_info
