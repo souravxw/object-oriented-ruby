@@ -10,3 +10,15 @@ class Dog < Animal
     puts "Woof!"
   end
 end
+
+class Cat < Animal
+  def speak
+    puts "Meow!"
+  end
+end
+
+dog = Dog.new
+dog.speak 
+
+cat = Cat.new
+cat.speak 
