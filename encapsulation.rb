@@ -19,3 +19,19 @@ class BankAccount
     puts "Balance: #{@balance}"
   end
 end
+
+
+
+private
+def secret_method
+  puts "This is a secret method"
+end
+
+
+account = BankAccount.new(1000)
+account.deposit(500)
+account.withdraw(200)
+account.check_balance  
+
+
+account.secret_method  
